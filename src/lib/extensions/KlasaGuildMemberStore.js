@@ -14,7 +14,7 @@ class KlasaGuildMemberStore extends GuildMemberManager {
 
 	async _fetchMany(...args) {
 		const members = await super._fetchMany(...args);
-		await Promise.all(members.map(member => member.settings.sync()));
+		await Promise.all(members.cache.map(member => member.settings.sync()));
 		return members;
 	}
 
