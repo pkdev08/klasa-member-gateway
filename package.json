@@ -1,7 +1,7 @@
 {
 	"name": "@shadow/member-gateway",
 	"version": "1.0.1",
-	"description": "Fork of klasa-member-gateway & aero-member-gateway in an attempt to fix current issues.",
+	"description": "Fork of klasa-member-gateway & aero-member-gateway in an attempt to fix current issues and update to new discord.js",
 	"license": "BSD-3-Clause",
 	"author": "Ravy <ravy@aero.bot> (https://ravy.xyz)",
 	"contributors": [
