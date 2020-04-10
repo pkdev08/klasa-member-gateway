@@ -1,6 +1,6 @@
 {
 	"name": "@shadow/member-gateway",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Fork of klasa-member-gateway & aero-member-gateway in an attempt to fix current issues and update to new discord.js",
 	"license": "BSD-3-Clause",
 	"author": "dragonblitz10",

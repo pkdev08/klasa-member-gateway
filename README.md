@@ -1,7 +1,19 @@
 # member-gateway
 
 Fork of [dirigeants/klasa-member-gateway](https://github.com/dirigeants/klasa-member-gateway) in an attempt to fix the latest issues.
+## Installation
 
+```bash
+# NPM
+$ npm install @shadow/member-gateway
+```
+## Setup
+
+```js
+const { Client } = require('klasa');
+
+Client.use(require('@shadow/member-gateway'));
+```
 ---
 
 original (c) dirigeants 2018 under the MIT license:
